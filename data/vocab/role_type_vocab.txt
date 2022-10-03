@@ -1,0 +1,7 @@
+special_token_size	1
+token_size	2
+singleton_size	0
+singleton_max_count	1
+0	*NULL*	1
+1	TARGET	24705
+2	HOLDER	23775

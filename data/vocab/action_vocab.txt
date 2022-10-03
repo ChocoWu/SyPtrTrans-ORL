@@ -1,0 +1,10 @@
+special_token_size	0
+token_size	6
+singleton_size	0
+singleton_max_count	1
+0	NO-START	519721
+1	SHIFT	75168
+2	ARC	48406
+3	HT_START	45506
+4	DS-START	29662
+5	NO_ARC	29178
