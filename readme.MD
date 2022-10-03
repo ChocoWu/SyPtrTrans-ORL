@@ -1,6 +1,20 @@
 # SynPtrTrans-ORL
 This repo is to implement the method described in the accapted paper [Mastering the Explicit Opinion-role Interaction: Syntax-aided Neural Transition System for Unified Opinion Role Labeling](https://www.aaai.org/AAAI22Papers/AAAI-729.WuS.pdf)
 
+## Introduction
+Unified opinion role labeling (ORL) aims to detect all possible opinion structures of ‘opinion-holder-target’ in one shot, given a text. 
+The existing transition-based unified method, unfortunately, is subject to longer opinion terms and fails to solve the term overlap issue. 
+Current top performance has been achieved by employing the span-based graph model, which however still suffers from both high model complexity and insufficient interaction among opinions and roles. 
+In this work, we investigate a novel solution by revisiting the transition architecture, and augmenting it with a pointer network (PointNet). 
+The framework parses out all opinion structures in linear-time complexity, meanwhile breaks through the limitation of any length of terms with PointNet. 
+To achieve the explicit opinion-role interactions, we further propose a unif ied dependency-opinion graph (UDOG), co-modeling the syntactic dependency structure and the partial opinion-role structure. 
+We then devise a relation-centered graph aggregator (RCGA) to encode the multi-relational UDOG, where the resulting high-order representations are used to promote the predictions in the vanilla transition system.
+
+<div align=center>
+<img src="img/PtrTrans.pdf" width="75%" height="75%" />
+</div>
+
+
 ## Prerequisite
 * [dynet Library](http://dynet.io/)
 * [transformers](https://huggingface.co/transformers/model_doc/bert.html)
