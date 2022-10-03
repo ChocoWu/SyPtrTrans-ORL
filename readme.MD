@@ -1,4 +1,5 @@
-# Mastering the Explicit Opinion-role Interaction: Syntax-aided Neural Transition System for Unified Opinion Role Labeling
+# SynPtrTrans-ORL
+This repo is to implement the method described in the accapted paper [Mastering the Explicit Opinion-role Interaction: Syntax-aided Neural Transition System for Unified Opinion Role Labeling](https://www.aaai.org/AAAI22Papers/AAAI-729.WuS.pdf)
 
 ## Prerequisite
 * [dynet Library](http://dynet.io/)
