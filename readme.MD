@@ -11,7 +11,7 @@ To achieve the explicit opinion-role interactions, we further propose a unif ied
 We then devise a relation-centered graph aggregator (RCGA) to encode the multi-relational UDOG, where the resulting high-order representations are used to promote the predictions in the vanilla transition system.
 
 <div align=center>
-<img src="./PtrTrans.pdf" width="75%" height="75%" />
+<img src="./PtrTrans.png" width="75%" height="75%" />
 </div>
 
 
